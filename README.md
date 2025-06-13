@@ -10,3 +10,14 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+# GSAP MENU'
+1 - From "CODE" button, click to "DOWNLOAD ZIP"; <br>
+2 - Extract the files in a folder that you prefer; <br>
+3 - Open the folder with your IDE, in Visual Studio Code "CTRL + K + O"; <br>
+4 - Open a new terminal and choose cmd; <br>
+5 - Enter to "frontend" directory from cmd with command "cd frontend"; <br>
+6 - From cmd lunch the command "npm install"; <br>
+7 - From cmd lunch the command "npm run dev"; <br>
+8 - Open the "localahost" with "CTRL + Click" over the link. 
