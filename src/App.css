@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+.bebas-neue {
+  font-family: "Bebas Neue", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Bebas Neue';
+}
+
+/* NASCONDERE SCROLLBAR */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+#root {
+  margin: 0 auto;
+}
+
+h1 {
+  @apply text-[8rem] leading-[4rem] sm:text-[18rem] sm:leading-[10rem] text-white
+}
+
+.hero {
+  @apply h-[100vh] flex items-end p-[4rem] bg-[url('')] bg-no-repeat bg-center bg-right
+}
+
+.logo {
+  @apply uppercase text-4xl
+}
+
+
+
+/* X */
+.x {
+  @apply flex flex-col justify-center cursor-pointer w-[40px] h-[40px]
+}
+
+.x hr {
+  @apply absolute w-[40px] border-2
+}
+
+.x_l {
+  @apply rotate-90
+}
+
+
+
+/* NAV MENU */
+.nav_menu {
+  @apply px-[4rem] py-[2rem] fixed z-1 w-full
+}
+
+
+
+/* MAIN MENU */
+.main_menu {
+  @apply bg-white min-h-[100vh] w-full p-[4rem] pt-28 flex flex-col gap-8 absolute top-0 left-0
+}
+
+
+
+/* VOCE_MAIN_MENU' */
+
+.box_voce_main_menu {
+ @apply overflow-hidden cursor-pointer
+}
+
+.voce_main_menu {
+  @apply uppercase flex items-center text-black text-[6rem] sm:text-[10rem] leading-[5rem] sm:leading-[8rem] w-fit duration-500
+}
+
+.arrow_right {
+  @apply w-[0px] duration-500
+}
+
+.voce_main_menu:hover .arrow_right {
+  @apply w-[50px] mr-4 sm:w-[100px] duration-500 sm:mr-8
+}
+
+
+
+/* BTN_SOCIAL */
+
+.box_btn_social {
+  @apply overflow-hidden
+}
+
+.btn_social {
+  @apply relative text-black text-2xl sm:text-3xl py-4 px-8 rounded-full border-2 border-black w-fit h-fit duration-500
+}
+
+.btn_social:hover {
+  @apply text-white duration-500
+}
+
+.btn_social::before {
+  @apply absolute bottom-full left-0 w-full h-full content-[''] duration-350 bg-black -z-1
+}
+
+.btn_social:hover::before {
+  @apply bottom-0 duration-350
+}
+
+.socials_container {
+  @apply flex flex-wrap gap-4
+}
